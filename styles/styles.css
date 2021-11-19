@@ -229,7 +229,7 @@ footer a {
 .section-1::after {
   content: "";
   opacity: 0.5;
-  background: url("/assets/lightSpace.jpg") no-repeat center center;
+  background: url("../assets/lightSpace.jpg") no-repeat center center;
   background-size: 100% 100%;
   top: 0;
   left: 0;
@@ -291,7 +291,7 @@ footer a {
   .section-1::after {
     content: "";
     opacity: 0.5;
-    background: url("/assets/lightSpace.jpg") no-repeat center center;
+    background: url("../assets/lightSpace.jpg") no-repeat center center;
     background-size: 100% 100%;
     top: 0;
     left: 0;
@@ -349,7 +349,7 @@ footer a {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-image: url('/assets/closebg.png');
+  background-image: url('../assets/closebg.png');
   background-position: center;
   background-repeat: repeat;
 }
@@ -369,7 +369,7 @@ footer a {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    background-image: url('/assets/closebg.png');
+    background-image: url('../assets/closebg.png');
     background-position: center;
     background-repeat: repeat;
   }
