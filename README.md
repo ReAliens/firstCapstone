@@ -49,6 +49,13 @@ no installations
 Deployed with github pages as a host
 
 
+## Acknowledgements
+Cindy Shin
+GUI & Graphic Designer
+
+Seoul, Korea, Republic of
+
+
 ## Authors
 
 👤 **Ahmed Reda**

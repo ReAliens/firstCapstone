@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   max-width: 100%;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -298,32 +301,33 @@ footer a {
   }
 
   .section-1 h2 {
-    font-size: 25px;
+    font-size: 35px;
     color: #ec5242;
     z-index: 2;
+    margin-bottom: 20px;
   }
 
   .section-1 h1 {
-    font-size: 50px;
+    font-size: 6rem;
     font-weight: bold;
     color: #ec5242;
-    line-height: 60px;
+    line-height: 110px;
     z-index: 2;
+    margin-bottom: 20px;
   }
 
   .intro p {
     padding: 10px;
-    max-width: 100%;
+    max-width: 50%;
     font-size: 20px;
     z-index: 2;
     background-color: rgba(128, 128, 128, 0.5);
     text-align: start;
-
-    /* margin: 20px; */
+    margin-bottom: 20px;
   }
 
   .timing {
-    margin-top: 20px;
+    margin: 20px 0;
     color: #272a31;
     font-size: 28px;
     z-index: 2;
@@ -331,7 +335,7 @@ footer a {
   }
 
   .location {
-    margin-top: 20px;
+    margin: 20px 0;
     color: #272a31;
     font-size: 20px;
     z-index: 2;

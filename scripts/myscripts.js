@@ -22,28 +22,28 @@ closeButton.addEventListener('click', () => {
 const speakers = [
   {
     id: 1,
-    image: '/assets/speaker.jpg',
+    image: './assets/speaker.jpg',
     name: 'Chris Hadfield',
     brief: 'retired Canadian Space Agency astronaut',
     work: 'Hadfield has flown two Space Shuttle missions and served as commander of the International Space Station.',
   },
   {
     id: 2,
-    image: '/assets/speaker2.jpg',
+    image: './assets/speaker2.jpg',
     name: 'Elon Musk',
     brief: 'He is the founder, CEO, and Chief Engineer at SpaceX',
     work: ' founder of The Boring Company; and co-founder of Neuralink and OpenAI.',
   },
   {
     id: 3,
-    image: '/assets/speaker3.jpg',
+    image: './assets/speaker3.jpg',
     name: 'Helen Sharman',
     brief: 'British chemist and astronaut',
     work: 'first Western European woman and first privately funded woman in space.',
   },
   {
     id: 4,
-    image: '/assets/speaker4.jpg',
+    image: './assets/speaker4.jpg',
     name: 'Buzz Aldrin',
     brief: 'American former astronaut, engineer and fighter pilot.',
     work: 'ldrin made three spacewalks as pilot of the 1966 Gemini 12 mission, and, as Lunar Module Eagle pilot on the 1969 Apollo 11 mission',
@@ -53,35 +53,35 @@ const speakers = [
 const mainProgramCards = [
   {
     id: 1,
-    icon: '/assets/main1.png',
+    icon: './assets/main1.png',
     title: 'Lecture',
     description:
       'Listen to the speakers from various countries about the messages of sharing and opening',
   },
   {
     id: 2,
-    icon: '/assets/main2.png',
+    icon: './assets/main2.png',
     title: 'CC Exhibtion',
     description:
       'Appreciate various creation applying CC license of experts organized from EAS@ ',
   },
   {
     id: 3,
-    icon: '/assets/main3.png',
+    icon: './assets/main3.png',
     title: 'Forum',
     description:
       'Have the time to share your thoughts and opinions with experts for each topic',
   },
   {
     id: 4,
-    icon: '/assets/main4.png',
+    icon: './assets/main4.png',
     title: 'Workshop',
     description:
       'Try creating your own work using open source license rather than just watching',
   },
   {
     id: 5,
-    icon: '/assets/main5.png',
+    icon: './assets/main5.png',
     title: 'CC Ignite',
     description:
       'Get opportunities to network with CC affiliates around the world, also after the summit',
