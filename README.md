@@ -26,8 +26,8 @@
 https://realiens.github.io/firstCapstone/
 
 
-## presentation for app
-https://www.loom.com/share/e129bd52bf454ef1ba81810a7c1e4d00
+<!-- ## presentation for app
+https://www.loom.com/share/e129bd52bf454ef1ba81810a7c1e4d00 -->
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
