@@ -1,8 +1,17 @@
-# Portofilo project
+# Space Lovers project
 
-This is the a capstone project based on online coference idea   
+"Space exploration is the use of astronomy and space technology to
+ explore outer space. While the exploration of space is carried out
+ mainly by astronomers with telescopes, its physical exploration
+ though is conducted both by unmanned robotic space probes and human
+ spaceflight"
 
-![screenshot]('./screenshot.png')
+
+![Alt text](/assets/sc1.png)
+![Alt text](/assets/sc2.png)
+![Alt text](/assets/sc3.png)
+![Alt text](/assets/sc4.png)
+
 
 ## Built With
 
