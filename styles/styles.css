@@ -223,19 +223,8 @@ footer a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
-}
-
-.section-1::after {
-  content: "";
-  opacity: 0.5;
   background: url("../assets/lightSpace.jpg") no-repeat center center;
   background-size: 100% 100%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
 }
 
 .section-1 h2 {
@@ -257,7 +246,7 @@ footer a {
   max-width: 100%;
   font-size: 20px;
   z-index: 2;
-  background-color: rgba(128, 128, 128, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
   margin: 20px;
 }
@@ -279,55 +268,38 @@ footer a {
 }
 
 @media only screen and (min-width: 768px) {
-  .section-1 {
-    height: 80vh;
-    max-width: 100%;
-    padding: 0 20px;
+  .introContainer {
+    height: 60%;
+    max-width: 70%;
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    position: relative;
+    justify-content: space-around;
   }
 
-  .section-1::after {
-    content: "";
-    opacity: 0.5;
-    background: url("../assets/lightSpace.jpg") no-repeat center center;
-    background-size: 100% 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-  }
-
-  .section-1 h2 {
-    font-size: 35px;
+  .introContainer h2 {
+    font-size: 45px;
     color: #ec5242;
-    z-index: 2;
-    margin-bottom: 20px;
   }
 
-  .section-1 h1 {
-    font-size: 6rem;
+  .introContainer h1 {
+    font-size: 60px;
     font-weight: bold;
     color: #ec5242;
-    line-height: 110px;
+    line-height: 80px;
     z-index: 2;
-    margin-bottom: 20px;
   }
 
   .intro p {
     padding: 10px;
-    max-width: 50%;
+    max-width: 60%;
     font-size: 20px;
-    z-index: 2;
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     text-align: start;
-    margin-bottom: 20px;
   }
 
   .timing {
-    margin: 20px 0;
+    margin-top: 20px;
     color: #272a31;
     font-size: 28px;
     z-index: 2;
@@ -335,7 +307,7 @@ footer a {
   }
 
   .location {
-    margin: 20px 0;
+    margin-top: 20px;
     color: #272a31;
     font-size: 20px;
     z-index: 2;
