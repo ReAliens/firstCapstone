@@ -128,4 +128,4 @@ const addSpeakers = () => {
   });
 };
 
-window.onload = addSpeakers();
+window.onload = addSpeakers;
