@@ -109,7 +109,7 @@ const addSpeakers = () => {
     const speakerCard = `<div class="speaker-card">
         <div class="speaker">
           <img
-            src="../assets/chessPattern.jpg"
+            src="./assets/chessPattern.jpg"
             alt="chessPattern"
             class="backgroundChess"
           />
